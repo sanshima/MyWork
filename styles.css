@@ -1,0 +1,272 @@
+body {
+  max-width: 960px;
+}
+
+body .wrapper {
+  padding: 4%;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 270px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    display: block;
+    height: auto;
+  }
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  header h1 {
+    text-align: center;
+  }
+}
+
+header .header_nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  header .header_nav ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+header .header_nav ul li {
+  line-height: 64px;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+header .header_nav ul li .icon {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
+
+main #mainvisual img {
+  width: 100%;
+  max-width: 1920px;
+  height: 420px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main #about h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 30px 0px;
+}
+
+main #about ul li {
+  display: block;
+}
+
+main #about ul li:nth-child(1) {
+  padding-bottom: 20px;
+}
+
+main #about p {
+  padding: 20px 0px;
+}
+
+main #works h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 30px 0px;
+}
+
+main #works ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 0 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  main #works ul {
+    display: block;
+  }
+}
+
+main #works ul li {
+  width: 30%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  main #works ul li {
+    width: 100%;
+  }
+}
+
+main #works ul li img {
+  max-width: 100%;
+}
+
+main #news h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 30px 0px;
+}
+
+main #news dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-top: solid 1px #c8c8c8;
+}
+
+@media screen and (max-width: 600px) {
+  main #news dl {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+main #news dl dt {
+  width: 20%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 10px 0px;
+  padding-left: 10px;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 600px) {
+  main #news dl dt {
+    width: 100%;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+main #news dl dd {
+  width: 80%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 10px 0px;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  main #news dl dd {
+    width: 100%;
+    padding-top: 0;
+  }
+}
+
+main #contact h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 30px 0px;
+}
+
+main #contact dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+  main #contact dl {
+    display: block;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+main #contact dl dt {
+  width: 20%;
+  margin: 5px 0px;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 600px) {
+  main #contact dl dt {
+    width: 100%;
+  }
+}
+
+main #contact dl dd {
+  width: 80%;
+  margin: 5px 0px;
+  border: solid 1px #c8c8c8;
+}
+
+@media screen and (max-width: 600px) {
+  main #contact dl dd {
+    width: 100%;
+  }
+}
+
+main #contact dl dd input {
+  height: 40px;
+}
+
+main #contact dl dd textarea {
+  height: 160px;
+}
+
+main #contact div {
+  text-align: center;
+}
+
+main #contact div input {
+  height: 55px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  margin: 20px 0px 60px 0px;
+}
+
+main footer p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  height: 40px;
+}
+/*# sourceMappingURL=styles.css.map */
